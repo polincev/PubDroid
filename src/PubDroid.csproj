@@ -11,4 +11,10 @@
     <PackageOutputPath>../nupkg</PackageOutputPath>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Cocona" Version="2.2.0" />
+    <PackageReference Include="Google.Apis.AndroidPublisher.v3" Version="1.68.0.3654" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.69.0" />
+  </ItemGroup>
+
 </Project>
