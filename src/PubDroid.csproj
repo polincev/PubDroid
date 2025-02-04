@@ -5,6 +5,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    
+    <PackageId>PubDroid</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Nikola Polincev</Authors>
+    <Product># PubDroid
+      
+      ### A lightweight, .NET [command-line] tool that simplifies uploading Android App Bundles to the Google Play Console for any type of app. Perfect for CI/CD pipelines or local workflows, it focuses on straightforward, reliable uploads to get your application deployed quickly. Inspired by a desire to avoid having to use Fastlane (which our team wasn’t leveraging for any other parts of our .NET MAUI pipeline).
+    </Product>
 
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>pubdroid</ToolCommandName>
